@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/appdate.h</itemPath>
+      <itemPath>src/application.h</itemPath>
+      <itemPath>src/apptime.h</itemPath>
+      <itemPath>src/constants.h</itemPath>
+      <itemPath>src/coordinates.h</itemPath>
+      <itemPath>src/database.h</itemPath>
+      <itemPath>src/entity.h</itemPath>
+      <itemPath>src/event.h</itemPath>
+      <itemPath>src/properties.h</itemPath>
+      <itemPath>src/ui.h</itemPath>
+      <itemPath>src/world.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/appdate.cpp</itemPath>
+      <itemPath>src/application.cpp</itemPath>
+      <itemPath>src/apptime.cpp</itemPath>
+      <itemPath>src/coordinates.cpp</itemPath>
+      <itemPath>src/database.cpp</itemPath>
+      <itemPath>src/entity.cpp</itemPath>
+      <itemPath>src/event.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+      <itemPath>src/properties.cpp</itemPath>
+      <itemPath>src/ui.cpp</itemPath>
+      <itemPath>src/world.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="linux64-debug" type="1" platformSpecific="true">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <platform>2</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <architecture>2</architecture>
+          <warningLevel>2</warningLevel>
+        </asmTool>
+        <linkerTool>
+          <output>tbw-debug</output>
+        </linkerTool>
+      </compileType>
+      <item path="src/appdate.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/appdate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/application.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/apptime.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/apptime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/coordinates.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/coordinates.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/entity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/entity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/properties.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/properties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/ui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/world.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="win64-debug" type="1" platformSpecific="true">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <platform>3</platform>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <architecture>2</architecture>
+          <standard>10</standard>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <architecture>2</architecture>
+          <warningLevel>2</warningLevel>
+        </asmTool>
+        <linkerTool>
+          <output>tbw-debug</output>
+        </linkerTool>
+      </compileType>
+      <packaging>
+        <packType>Zip</packType>
+        <packFileList>
+          <packFileListElem type="File"
+                            to="${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}.exe"
+                            from="${OUTPUT_PATH}.exe"
+                            perm="755"
+                            owner="root"
+                            group="bin"/>
+        </packFileList>
+      </packaging>
+      <item path="src/appdate.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/appdate.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/application.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/application.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/apptime.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/apptime.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/constants.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/coordinates.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/coordinates.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/database.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/entity.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/entity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/event.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/properties.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/properties.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/ui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/world.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/world.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
